@@ -23,6 +23,37 @@ Windows Security logs, specifically:
 * The NetLogon component is not active (ID 536)
 * The logon attempt failed for other reasons (ID 537)
 * Account lockout (ID 539)
+* User initiated logon (ID 4647)
+* Workstation locked (ID 4800)
+* Workstation unlocked (ID 4801)
+
+Logon Failure Events:
+
+* User name does not exist (ID 0xC0000064)
+* User name is correct but the password is wrong (ID 0xC000006A)
+* User is currently locked out (ID 0xC0000234)
+* Account is currently disabled (ID 0xC0000072)
+* User tried to logon outside his day of week or time of day restrictions (ID 0xC000006F)
+* Workstation restriction (ID 0xC0000070)
+* Account expiration (ID 0xC00000193)
+* Expired password (ID 0xC0000071)
+* Clocks between DC and other computer too far out of sync (ID 0xC0000133)
+* User is required to change password at next logon (ID 0xC0000224)
+* Evidently a bug in Windows and not a risk (ID 0xC0000225)
+* "The user has not been granted the requested logon" (ID 0xC000015b)
+
+User Account changes
+
+* Created (ID 4720)
+* Enabled (ID 4722)
+* User changed own password (ID 4723)
+* Privileged User changed this user’s password (ID 4724)
+* Disabled (ID 4725)
+* Deleted (ID 4726)
+* Changed (ID 4738)
+* Locked out (ID 4740)
+* Unlocked (ID 4767)
+* Name change (ID 4781)
 
 **Collection Considerations**
 
