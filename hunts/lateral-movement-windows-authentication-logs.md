@@ -2,7 +2,7 @@
 
 **Purpose**
 
-To detect authentication-based lateral movement in Windows envrionments
+To detect authentication-based lateral movement in Windows environments
 
 **Data Required**
 
